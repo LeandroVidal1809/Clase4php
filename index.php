@@ -8,7 +8,7 @@
 		<form id="FormIngreso" method="POST" action="Class\Nexo.php">
 			<input type="text" name="patente">
 			<input  type="submit" class="MiBotonUtn" name="accion" value="Estacionar">
-			<input  type="submit" class="MiBotonUtn" name="accion" value="Salir">
+			<input  type="submit" class="MiBotonUtn" name="accion" value="Sacar">
 		</form>
 	</div>
 

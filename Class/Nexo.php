@@ -14,7 +14,15 @@ if($accion=="Estacionar")
 	Estacionamiento::Guardar($patente);
 
 }
-else
-	Estacionamiento::Leer();
+if($accion=="Salir")
+{
+	Estacionamiento::Sacar($patente);
+
+}
+//else
+	//$miListado=array();
+	//$miListado=Estacionamiento::Leer();
+	//echo"<br>";
+	//var_dump($miListado);
 //header("location:../index.php"); 
 ?>
