@@ -14,5 +14,7 @@ if($accion=="Estacionar")
 	Estacionamiento::Guardar($patente);
 
 }
+else
+	Estacionamiento::Leer();
 //header("location:../index.php"); 
 ?>
